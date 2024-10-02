@@ -5,8 +5,15 @@ module.exports = {
     ],
     theme: {
       extend: {
+        colors: {
+            accentColor: '#FF7300',
+            secondaryColor: 'rgb(2, 2, 32)',
+        },
+        width: {
+            'full': '100vh',
+        },
         gridTemplateColumns: {
-          'hero': '0.7fr 1fr',
+            'desktopNav': '3fr 1fr 3fr',
         }},
     },
     plugins: [
